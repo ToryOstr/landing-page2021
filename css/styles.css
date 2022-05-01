@@ -1,0 +1,473 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-image: url(../img/page_design/page_design2.png);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ffeecf;
+  /* width: auto; */
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  color: #3f3f3f;
+}
+
+.picture {
+  width: auto;
+  height: auto;
+  position: absolute;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 80px;
+  justify-content: space-between;
+  position: relative;
+}
+
+/* Experience sections */
+.experience-sections {
+  width: 268px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my-projects-link {
+  font-style: normal;
+  font-weight: medium;
+  font-size: 16px;
+  line-height: 24px;
+  color: #d40303;
+  text-decoration-line: underline;
+}
+
+.my-photo {
+  margin-bottom: 24px;
+  border-radius: 50%;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  text-decoration: none;
+}
+
+.iconoir_facebook {
+  margin-right: 24px;
+  text-decoration: none;
+}
+
+.experience-description {
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+
+.experience-description-text {
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  color: #d87e61;
+  font-weight: bold;
+}
+
+.experience-description-text-first {
+  margin-bottom: 8px;
+}
+
+.technologies-container {
+  margin-bottom: 48px;
+}
+
+.uil_java-script,
+.fontisto_react {
+  margin-right: 12px;
+}
+
+/* My info sections */
+
+.my-info-section {
+  width: 33%;
+  margin-left: 74px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.my-name {
+  height: 24px;
+  width: 364px;
+  left: 498px;
+  top: 80px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: #3f3f3f;
+  margin-bottom: 32px;
+}
+
+.my-profession {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.my-location,
+.my-work-style {
+  font-weight: Bold;
+  font-size: 24px;
+  line-height: 24px;
+  vertical-align: Top;
+  color: #ffffff;
+  background-color: #d87e61;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.my-work-style {
+  margin-bottom: 80px;
+}
+
+.my-discriptions {
+  font-size: 16px;
+  line-height: 24px;
+  color: #4f4f4f;
+  margin-bottom: 48px;
+}
+
+.skils-title {
+  font-weight: Bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4f4f4f;
+  margin-bottom: 16px;
+}
+
+.skils-title-item {
+  font-size: 16px;
+  line-height: 24px;
+  color: #d87e61;
+}
+
+.skils-text {
+  color: #4f4f4f;
+}
+
+.my-skils-list {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+/* Project price sections */
+
+.Project-price-sections {
+  padding: 48px;
+  width: 33%;
+}
+
+.Project-price-form {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.08);
+  margin-left: 40px;
+  margin-right: 0px;
+  margin-bottom: 40px;
+  padding: 40px;
+  size: 16px;
+  line-height: 24px;
+}
+
+.Project-price-title {
+  font-weight: Bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #d87e61;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.project-type-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Project-price-form-field-title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4f4f4f;
+  margin-bottom: 12px;
+}
+
+.Project-price-select {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4f4f4f;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #d87e61;
+  padding-bottom: 8px;
+  margin-bottom: 36px;
+}
+
+.activity-type-contaner {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 36px;
+}
+
+.activity-type-icon {
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4f4f4f;
+  margin-bottom: 12px;
+}
+
+.activity-type-title {
+  color: #4f4f4f;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 16px;
+}
+
+.activity-type-checkbox {
+  width: 24px;
+  height: 24px;
+}
+
+.projekt-price-contaner {
+  margin-bottom: 32px;
+}
+
+.Project-price-sum-contaner {
+  display: flex;
+  flex-direction: row;
+}
+.Project-price-sum-icon {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #d87e61;
+  margin-right: 8px;
+}
+
+.Project-price-sum {
+  font-size: 16px;
+  line-height: 24px;
+  color: #4f4f4f;
+}
+
+.projekt-price-calculate-button-contaner {
+  width: 100%;
+  text-align: center;
+}
+
+.projekt-price-calculate-button {
+  background: #d87e61;
+  color: #ffffff;
+  border-radius: 24px;
+  padding: 12px 32px 12px 32px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Phone & mesager section */
+
+.phone_mesager {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 24px;
+  right: 80px;
+  justify-content: center;
+}
+
+.icon_margin {
+  margin-left: 6px;
+  margin-right: 6px;
+  text-decoration: none;
+}
+
+.phone-number {
+  font-weight: Bold;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 6px;
+  margin-right: 6px;
+  vertical-align: top;
+  fill: Solid;
+  color: #b83e18;
+  text-decoration: none;
+}
+
+/* Modal contaner1 */
+
+.modal-bgd1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(79 79 79 / 85%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.modal-active {
+  pointer-events: all;
+  opacity: 1;
+}
+
+.modal-contaner1 {
+  background: #ffffff;
+  box-shadow: 8px, 8px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  padding: 80px 40px;
+  width: 364px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.modal-title {
+  font-weight: Bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: Center;
+  color: #d87e61;
+  margin-bottom: 32px;
+}
+
+.user-email-title {
+  font-weight: Bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4f4f4f;
+  width: 100%;
+}
+
+.modal-contaner-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.user-email {
+  margin-bottom: 8px;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 8px;
+  padding: 8px 0px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #d87e61;
+}
+
+.email-input-contaner {
+  margin-bottom: 108px;
+  height: 108px;
+}
+
+.email-error-text {
+  color: #d40303;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 108px;
+  display: none;
+}
+.email-input-contaner-error .email-error-text {
+  display: block;
+}
+
+.email-input-contaner-error .user-email {
+  border-bottom: 1px solid #d40303;
+}
+
+.modal-submit-btn {
+  background: #d87e61;
+  color: #ffffff;
+  border-radius: 24px;
+  padding: 12px 32px 12px 32px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.modal_icon {
+  margin-bottom: 40px;
+}
+.modal_close_btn {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+
+/* Modal success massage */
+
+.modal-success-massage {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(79 79 79 / 85%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.modal-active2 {
+  pointer-events: all;
+  opacity: 1;
+}
+
+.modal-success-massage-contaner {
+  background: #ffffff;
+  box-shadow: 8px, 8px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  padding: 132px 88px 304px 88px;
+  width: 364px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+}
